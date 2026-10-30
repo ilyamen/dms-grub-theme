@@ -1,0 +1,95 @@
+{
+    "Auto": {
+        "Auto": "Авто"
+    },
+    "Booting in %d s": {
+        "Booting in %d s": "Загрузка через %d с"
+    },
+    "Checking the helper…": {
+        "Checking the helper…": "Проверка помощника…"
+    },
+    "Follow the wallpaper": {
+        "Follow the wallpaper": "Следовать за обоями"
+    },
+    "GRUB is not installed": {
+        "GRUB is not installed": "GRUB не установлен"
+    },
+    "GRUB with update-grub was not found.": {
+        "GRUB with update-grub was not found.": "GRUB с update-grub не найден."
+    },
+    "Helper installed": {
+        "Helper installed": "Помощник установлен"
+    },
+    "Helper not installed": {
+        "Helper not installed": "Помощник не установлен"
+    },
+    "Helper out of date: %1 installed, %2 available": {
+        "Helper out of date: %1 installed, %2 available": "Помощник устарел: установлена %1, доступна %2"
+    },
+    "How long the menu waits before starting the default entry.": {
+        "How long the menu waits before starting the default entry.": "Сколько меню ждёт, прежде чем запустить пункт по умолчанию."
+    },
+    "Install helper": {
+        "Install helper": "Установить помощник"
+    },
+    "Install python3-pil and grub-common (grub-mkfont) first.": {
+        "Install python3-pil and grub-common (grub-mkfont) first.": "Сначала установите python3-pil и grub-common (grub-mkfont)."
+    },
+    "Menu timeout": {
+        "Menu timeout": "Время показа меню"
+    },
+    "Paint the GRUB menu in the colors DMS takes from the wallpaper, and repaint it whenever the wallpaper changes. The menu shows for a few seconds on every boot.": {
+        "Paint the GRUB menu in the colors DMS takes from the wallpaper, and repaint it whenever the wallpaper changes. The menu shows for a few seconds on every boot.": "Меню GRUB в цветах, которые DMS берёт из обоев, и перерисовка при каждой смене обоев. Меню показывается на несколько секунд при каждой загрузке."
+    },
+    "Remove helper and theme": {
+        "Remove helper and theme": "Удалить помощник и тему"
+    },
+    "Repaint now": {
+        "Repaint now": "Перерисовать сейчас"
+    },
+    "Repaint the menu whenever DMS makes a new palette. Off keeps the current colors until you press Repaint now.": {
+        "Repaint the menu whenever DMS makes a new palette. Off keeps the current colors until you press Repaint now.": "Перерисовывать меню каждый раз, когда DMS создаёт новую палитру. Если выключить, цвета останутся прежними, пока не нажмёте «Перерисовать сейчас»."
+    },
+    "Resolution": {
+        "Resolution": "Разрешение"
+    },
+    "The theme is drawn with Pillow, its fonts are made with grub-mkfont, and it is written to /boot through polkit. Install python3-pil, grub-common and polkit, then re-enable the plugin.": {
+        "The theme is drawn with Pillow, its fonts are made with grub-mkfont, and it is written to /boot through polkit. Install python3-pil, grub-common and polkit, then re-enable the plugin.": "Тема рисуется через Pillow, шрифты делаются grub-mkfont, а в /boot она пишется через polkit. Установите python3-pil, grub-common и polkit, затем снова включите плагин."
+    },
+    "The theme lives in /boot, which only root can write. A small helper draws it there, and polkit lets the active session run it without a password, so the menu can follow the wallpaper. Installing it asks for your password once.": {
+        "The theme lives in /boot, which only root can write. A small helper draws it there, and polkit lets the active session run it without a password, so the menu can follow the wallpaper. Installing it asks for your password once.": "Тема лежит в /boot, куда может писать только root. Её рисует там небольшой помощник, а polkit разрешает активному сеансу запускать его без пароля, чтобы меню успевало за обоями. Пароль спросят один раз, при установке."
+    },
+    "Theme drawn %1 for %2": {
+        "Theme drawn %1 for %2": "Тема нарисована %1 для экрана %2"
+    },
+    "This plugin themes the GRUB boot menu and needs GRUB with /etc/grub.d and update-grub.": {
+        "This plugin themes the GRUB boot menu and needs GRUB with /etc/grub.d and update-grub.": "Плагин оформляет меню загрузки GRUB, ему нужен GRUB с /etc/grub.d и update-grub."
+    },
+    "Update helper": {
+        "Update helper": "Обновить помощник"
+    },
+    "python3-pil, grub-mkfont and pkexec are required": {
+        "python3-pil, grub-mkfont and pkexec are required": "Нужны python3-pil, grub-mkfont и pkexec"
+    },
+    "s": {
+        "s": "с"
+    },
+    "↑ ↓  select    ·    Enter  boot    ·    E  edit    ·    C  console": {
+        "↑ ↓  select    ·    Enter  boot    ·    E  edit    ·    C  console": "↑ ↓  выбор    ·    Enter  запуск    ·    E  правка    ·    C  консоль"
+    },
+    "Auto asks for 2560×1440, then 1920×1080, which nearly every firmware offers. A screen's own size works only if the firmware can drive it: see which modes it has by typing videoinfo in the GRUB console (C). If GRUB can't set it, it falls back to Auto.": {
+        "Auto asks for 2560×1440, then 1920×1080, which nearly every firmware offers. A screen's own size works only if the firmware can drive it: see which modes it has by typing videoinfo in the GRUB console (C). If GRUB can't set it, it falls back to Auto.": "«Авто» просит 2560×1440, затем 1920×1080: их умеет почти любая прошивка. Родной размер экрана сработает, только если его умеет прошивка. Список её режимов покажет команда videoinfo в консоли GRUB (C). Если GRUB не сможет его включить, он перейдёт к режимам «Авто»."
+    },
+    "Auto (2560×1440 or 1920×1080)": {
+        "Auto (2560×1440 or 1920×1080)": "«Авто» (2560×1440 или 1920×1080)"
+    },
+    "%1 · %2, whole screen at a lower resolution": {
+        "%1 · %2, whole screen at a lower resolution": "%1 · %2, весь экран в меньшем разрешении"
+    },
+    "Fade the sides to black": {
+        "Fade the sides to black": "Плавный уход в чёрный по бокам"
+    },
+    "The picture eases into black on the left and right, so the black bars beside a menu the firmware can't stretch to the whole screen blend in. The top and bottom keep the full color.": {
+        "The picture eases into black on the left and right, so the black bars beside a menu the firmware can't stretch to the whole screen blend in. The top and bottom keep the full color.": "Картинка плавно темнеет слева и справа, и чёрные поля по бокам меню, которое прошивка не может растянуть на весь экран, сливаются с ней. Сверху и снизу цвет остаётся полным."
+    }
+}

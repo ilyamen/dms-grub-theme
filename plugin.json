@@ -1,0 +1,24 @@
+{
+    "id": "grubTheme",
+    "name": "GRUB Theme",
+    "description": "Paint the GRUB boot menu in the Material You colors DMS takes from the wallpaper, and repaint it every time the wallpaper changes",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "ilyamen",
+    "type": "daemon",
+    "component": "./GrubThemeService.qml",
+    "settings": "./GrubThemeSettings.qml",
+    "startupCheck": "./StartupCheck.qml",
+    "icon": "palette",
+    "requires_dms": ">=2.0.0",
+    "dependencies": [
+        "grub",
+        "python3-pil",
+        "polkit"
+    ],
+    "permissions": [
+        "settings_read",
+        "settings_write",
+        "process"
+    ]
+}
